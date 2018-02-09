@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{46640652-5579-471a-ba7f-c9653d4c714f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{17e03d93-edc5-4e8f-bca0-a949061ff1de}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{156f1a49-df0d-478d-89a0-8e1c45edfcb0}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Lib\general.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="zor.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Lib\general.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\log.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="103_56.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="103_67.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="112_32.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="125_31.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="48.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cadenas.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="KEY.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LittleDraggin.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lock.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="locked.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="migale5_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Then.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="zor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
